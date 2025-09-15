@@ -1,0 +1,54 @@
+[0.005s] Invoking command in '/home/eung/colcon_ws/src/eungoo/build/eungoo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/eung/colcon_ws/src/eungoo -DCMAKE_INSTALL_PREFIX=/home/eung/colcon_ws/src/eungoo/install/eungoo
+[0.115s] -- The C compiler identification is GNU 11.4.0
+[0.171s] -- The CXX compiler identification is GNU 11.4.0
+[0.176s] -- Detecting C compiler ABI info
+[0.257s] -- Detecting C compiler ABI info - done
+[0.266s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.269s] -- Detecting C compile features
+[0.269s] -- Detecting C compile features - done
+[0.274s] -- Detecting CXX compiler ABI info
+[0.349s] -- Detecting CXX compiler ABI info - done
+[0.353s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.353s] -- Detecting CXX compile features
+[0.353s] -- Detecting CXX compile features - done
+[0.358s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.476s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.524s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[0.551s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.553s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.557s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.563s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.571s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.591s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.592s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.662s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.692s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.723s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.737s] -- Looking for pthread.h
+[0.851s] -- Looking for pthread.h - found
+[0.851s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.914s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.915s] -- Found Threads: TRUE  
+[0.942s] [31mCMake Error at CMakeLists.txt:15 (target_include_directories):
+[0.942s]   Cannot specify include directories for target "mytopic" which is not built
+[0.942s]   by this project.
+[0.942s] 
+[0.942s] [0m
+[0.942s] [31mCMake Error at CMakeLists.txt:21 (target_include_directories):
+[0.942s]   Cannot specify include directories for target "mytopic" which is not built
+[0.942s]   by this project.
+[0.942s] 
+[0.942s] [0m
+[0.942s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.983s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.983s] -- Configured cppcheck include dirs: 
+[0.984s] -- Configured cppcheck exclude dirs and/or files: 
+[0.984s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.985s] -- Added test 'lint_cmake' to check CMake code style
+[0.986s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.988s] -- Added test 'uncrustify' to check C / C++ code style
+[0.988s] -- Configured uncrustify additional arguments: 
+[0.989s] -- Added test 'xmllint' to check XML markup files
+[0.989s] -- Configuring incomplete, errors occurred!
+[0.989s] See also "/home/eung/colcon_ws/src/eungoo/build/eungoo/CMakeFiles/CMakeOutput.log".
+[0.996s] Invoked command in '/home/eung/colcon_ws/src/eungoo/build/eungoo' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/eung/colcon_ws/src/eungoo -DCMAKE_INSTALL_PREFIX=/home/eung/colcon_ws/src/eungoo/install/eungoo

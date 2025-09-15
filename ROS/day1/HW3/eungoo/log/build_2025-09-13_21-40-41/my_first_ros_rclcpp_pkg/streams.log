@@ -1,0 +1,44 @@
+[0.005s] Invoking command in '/home/eung/colcon_ws/src/eungoo/build/my_first_ros_rclcpp_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/eung/colcon_ws/src/eungoo -DCMAKE_INSTALL_PREFIX=/home/eung/colcon_ws/src/eungoo/install/my_first_ros_rclcpp_pkg
+[0.064s] -- The C compiler identification is GNU 11.4.0
+[0.111s] -- The CXX compiler identification is GNU 11.4.0
+[0.115s] -- Detecting C compiler ABI info
+[0.286s] -- Detecting C compiler ABI info - done
+[0.294s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.294s] -- Detecting C compile features
+[0.294s] -- Detecting C compile features - done
+[0.296s] -- Detecting CXX compiler ABI info
+[0.369s] -- Detecting CXX compiler ABI info - done
+[0.373s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.373s] -- Detecting CXX compile features
+[0.374s] -- Detecting CXX compile features - done
+[0.375s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.514s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.558s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[0.576s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.578s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.582s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.587s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.595s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.615s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.616s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.685s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.718s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.744s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.748s] -- Looking for pthread.h
+[0.841s] -- Looking for pthread.h - found
+[0.841s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.931s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.932s] -- Found Threads: TRUE  
+[0.972s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.010s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:53 (message):
+[1.010s]   ament_package_xml() package name 'my_first_ros_rclcpp_pkg' in
+[1.010s]   '/package.xml' does not match current PROJECT_NAME 'eungoo'.  You must call
+[1.010s]   project() with the same package name before.
+[1.010s] Call Stack (most recent call first):
+[1.010s]   /opt/ros/humble/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[1.010s]   CMakeLists.txt:28 (ament_lint_auto_find_test_dependencies)
+[1.010s] 
+[1.010s] [0m
+[1.010s] -- Configuring incomplete, errors occurred!
+[1.010s] See also "/home/eung/colcon_ws/src/eungoo/build/my_first_ros_rclcpp_pkg/CMakeFiles/CMakeOutput.log".
+[1.016s] Invoked command in '/home/eung/colcon_ws/src/eungoo/build/my_first_ros_rclcpp_pkg' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/eung/colcon_ws/src/eungoo -DCMAKE_INSTALL_PREFIX=/home/eung/colcon_ws/src/eungoo/install/my_first_ros_rclcpp_pkg

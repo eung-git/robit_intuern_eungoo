@@ -1,0 +1,2 @@
+Invoking command in '/home/eung/colcon_ws/src/eungoo/build/my_first_ros_rclcpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/eung/colcon_ws/src/eungoo -DCMAKE_INSTALL_PREFIX=/home/eung/colcon_ws/src/eungoo/install/my_first_ros_rclcpp_pkg
+Invoked command in '/home/eung/colcon_ws/src/eungoo/build/my_first_ros_rclcpp_pkg' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/eung/colcon_ws/src/eungoo -DCMAKE_INSTALL_PREFIX=/home/eung/colcon_ws/src/eungoo/install/my_first_ros_rclcpp_pkg

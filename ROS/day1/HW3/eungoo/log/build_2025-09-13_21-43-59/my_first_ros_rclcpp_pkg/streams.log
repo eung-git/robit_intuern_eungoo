@@ -1,0 +1,24 @@
+[0.007s] Invoking command in '/home/eung/colcon_ws/src/eungoo/build/my_first_ros_rclcpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/eung/colcon_ws/src/eungoo -DCMAKE_INSTALL_PREFIX=/home/eung/colcon_ws/src/eungoo/install/my_first_ros_rclcpp_pkg
+[0.016s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.089s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[0.103s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.104s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.107s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.112s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.118s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.134s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.135s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.204s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.238s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.270s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:53 (message):
+[0.270s]   ament_package_xml() package name 'my_first_ros_rclcpp_pkg' in
+[0.270s]   '/package.xml' does not match current PROJECT_NAME 'eungoo'.  You must call
+[0.270s]   project() with the same package name before.
+[0.270s] Call Stack (most recent call first):
+[0.270s]   /opt/ros/humble/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[0.270s]   CMakeLists.txt:28 (ament_lint_auto_find_test_dependencies)
+[0.270s] 
+[0.270s] [0m
+[0.270s] -- Configuring incomplete, errors occurred!
+[0.270s] See also "/home/eung/colcon_ws/src/eungoo/build/my_first_ros_rclcpp_pkg/CMakeFiles/CMakeOutput.log".
+[0.276s] Invoked command in '/home/eung/colcon_ws/src/eungoo/build/my_first_ros_rclcpp_pkg' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/eung/colcon_ws/src/eungoo -DCMAKE_INSTALL_PREFIX=/home/eung/colcon_ws/src/eungoo/install/my_first_ros_rclcpp_pkg

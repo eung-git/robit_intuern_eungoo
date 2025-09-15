@@ -1,0 +1,4 @@
+source;share/eungoo/local_setup.bash
+source;share/eungoo/local_setup.dsv
+source;share/eungoo/local_setup.sh
+source;share/eungoo/local_setup.zsh
