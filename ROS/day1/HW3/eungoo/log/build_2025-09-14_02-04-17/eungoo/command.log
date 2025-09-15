@@ -1,2 +1,0 @@
-Invoking command in '/home/eung/colcon_ws/src/eungoo/build/eungoo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/eung/colcon_ws/src/eungoo -DCMAKE_INSTALL_PREFIX=/home/eung/colcon_ws/src/eungoo/install/eungoo
-Invoked command in '/home/eung/colcon_ws/src/eungoo/build/eungoo' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/eung/colcon_ws/src/eungoo -DCMAKE_INSTALL_PREFIX=/home/eung/colcon_ws/src/eungoo/install/eungoo
